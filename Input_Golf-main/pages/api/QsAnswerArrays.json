@@ -1,0 +1,585 @@
+[
+  {
+    "id": 1,
+    "topic": 3,
+    "question": "What is a small program that gets installed on a computer while browsing the Internet? The basic function of this program is to provide an interactive Internet experience through videos and toolbars, but can be used to gain unauthorized access to a computer, and then damage the data stored on it or install malicious software on it.",
+    "answers": [
+      "Active content",
+      "Cookie",
+      "Crumb",
+      "Cache"
+    ]
+  },
+  {
+    "id": 2,
+    "topic": 0,
+    "question": "What does the acronym C.I.A. stand for in a web security context?",
+    "answers": [
+      "Confidentiality, Integrity, Availability",
+      "Confidentiality, Internet, Availability",
+      "Congestion, Integrity, Availability",
+      "Central, Intelligence, Agency"
+    ]
+  },
+  {
+    "id": 3,
+    "topic": 0,
+    "question": "What is the process of reconverting the encrypted data into a readable and usable form?",
+    "answers": [
+      "Decryption",
+      "Decoding",
+      "Decipher",
+      "Download"
+    ]
+  },
+  {
+    "id": 4,
+    "topic": 0,
+    "question": "What is the process of converting data into an unreadable and unusable form?",
+    "answers": [
+      "Encryption",
+      "Encode",
+      "Encapsulate",
+      "Hash"
+    ]
+  },
+  {
+    "id": 5,
+    "topic": 0,
+    "question": "What is information that describes how a message is encrypted?",
+    "answers": [
+      "Key",
+      "Code",
+      "Legend",
+      "Password"
+    ]
+  },
+  {
+    "id": 6,
+    "topic": 0,
+    "question": "What is a unique string of characters that a user types in as an identification code. It is a security measure used to restrict access to computer systems and sensitive files",
+    "answers": [
+      "Password",
+      "Cipher",
+      "Morse code",
+      "Pattern"
+    ]
+  },
+  {
+    "id": 7,
+    "topic": 0,
+    "question": "What is the name by which a user is identified to a computer system or network?",
+    "answers": [
+      "User name",
+      "Key",
+      "Administrator",
+      "Guest"
+    ]
+  },
+  {
+    "id": 8,
+    "topic": 0,
+    "question": "What is a filter that blocks unreliable and unauthorized information from the Internet before it reaches your computer or a private network?",
+    "answers": [
+      "Firewall",
+      "Fence",
+      "Antivirus",
+      "DMZ"
+    ]
+  },
+  {
+    "id": 9,
+    "topic": 0,
+    "question": "What is a person who uses computer expertise to gain unauthorized access to a computer, and then misuses or tampers the programs and data stored on the computer",
+    "answers": [
+      "Hacker",
+      "User",
+      "Bot",
+      "Cool"
+    ]
+  },
+  {
+    "id": 10,
+    "topic": 3,
+    "question": "What is a term for any company that provides Internet connectivity to individuals, businesses, and organizations?",
+    "answers": [
+      "ISP",
+      "USPS",
+      "Amazon",
+      "University of Florida"
+    ]
+  },
+  {
+    "id": 11,
+    "topic": 1,
+    "question": "What is the act of keeping a user’s data, including personal files and e-mail messages, such that the data is not accessible by anyone without appropriate permission?",
+    "answers": [
+      "Computer privacy",
+      "Secrets",
+      "Encryption",
+      "Confidentiality"
+    ]
+  },
+  {
+    "id": 12,
+    "topic": 3,
+    "question": "What is an Internet security protocol that ensures secure data communication by encrypting the information transmitted?",
+    "answers": [
+      "SSL",
+      "TCP",
+      "DSL",
+      "DDoS"
+    ]
+  },
+  {
+    "id": 13,
+    "topic": 1, 
+    "question": "What is an action that prevents access to data from a server or a network by sending more requests than a server can handle?",
+    "answers": [
+      "Denial of Service (DoS) attacks",
+      "Prank calls",
+      "Spam",
+      "Distribute Several Automotons"
+    ]
+  },
+  {
+    "id": 14,
+    "topic": 1,
+    "question": "What is an action where two or more computers attack a server at the same time, with the attacking computer infected with malware that instructs the computer to continually send requests to the server?",
+    "answers": [
+      "Distributed Denial of Service (DDoS)",
+      "Mass attack",
+      "Distribute Several Automotons",
+      "Multi System Attack"
+    ]
+  },
+  {
+    "id": 15,
+    "topic": 1,
+    "question": "What is the method of which to prevent physical access to a computer?",
+    "answers": [
+      "Physical security",
+      "Lock down",
+      "Biometric scan",
+      "Touch screen"
+    ]
+  },
+  {
+    "id": 16,
+    "topic": 1,
+    "question": "What is the act or instance of making a duplicate copy of a program, a disk, or data?",
+    "answers": [
+      "Backup",
+      "Scan",
+      "Steal",
+      "Masking"
+    ]
+  },
+  {
+    "id": 17,
+    "topic": 1,
+    "question": "What is a method of preventing access to the server by using an intermediary server to direct traffic away from the main server?",
+    "answers": [
+      "Proxy server",
+      "Intermediary",
+      "DMZ",
+      "TCP port"
+    ]
+  },
+  {
+    "id": 18,
+    "topic": 3,
+    "question": "What is temporary memory on your computer that is sometimes used to store local copies of files opened when you browse the Internet?",
+    "answers": [
+      "Cache",
+      "Backup",
+      "RAM",
+      "USB drive"
+    ]
+  },
+  {
+    "id": 19,
+    "topic": 3,
+    "question": "What is a small file on a computer that is created when a user visits a Web site?",
+    "answers": [
+      "Cookie",
+      "Cache",
+      "Backup",
+      "Active content"
+    ]
+  },
+  {
+    "id": 20,
+    "topic": 2,
+    "question": "What is the act of extracting personal information, such as passwords and credit card details, from computer users and then using the information for malicious purposes?",
+    "answers": [
+      "Phishing",
+      "Spamming",
+      "Stealing",
+      "Hacking"
+    ]
+  },
+  {
+    "id": 21,
+    "topic": 2,
+    "question": "What is a computer program that is installed on your computer without your knowledge?",
+    "answers": [
+      "Spyware",
+      "Hacking",
+      "TLS",
+      "Encryption algorithm"
+    ]
+  },
+  {
+    "id": 22,
+    "topic": 2,
+    "question": "What is a check that asks the user to confirm whether or not they wish to go ahead with an instruction?",
+    "answers": [
+      "Verification",
+      "Enter to continue",
+      "Accept terms",
+      "Hold harmless"
+    ]
+  },
+  {
+    "id": 23,
+    "topic": 2,
+    "question": "What is a computer program that is designed to cause malfunctioning of a computer or damage the data stored on the computear?",
+    "answers": [
+      "Virus",
+      "Spyware",
+      "Hacking",
+      "Spam"
+    ]
+  },
+  {
+    "id": 24,
+    "topic": 2,
+    "question": "What is a computer program that propagates itself across computers, usually by creating copies of itself in each computer's memory?",
+    "answers": [
+      "Worm",
+      "Hashing",
+      "Phishing",
+      "Virus"
+    ]
+  },
+  {
+    "id": 25,
+    "topic": 2,
+    "question": "What is software that is intended to disrupt or modify a computer system and its data without the user's knowledge?",
+    "answers": [
+      "Malware",
+      "Spam",
+      "Internet explorer",
+      "Virus Total"
+    ]
+  },
+  {
+    "id": 26,
+    "topic": 2,
+    "question": "What is the use of emails to capture data by tricking a user to visit a fake website, and thus tricks the user into entering personal data?",
+    "answers": [
+      "Pharming",
+      "Soliciting",
+      "Pranking",
+      "Spam"
+    ]
+  },
+  {
+    "id": 27,
+    "topic": 2,
+    "question": "What is a message which asks for data to be transferred?",
+    "answers": [
+      "Request",
+      "Denial",
+      "Confused",
+      "Proxy"
+    ]
+  },
+  {
+    "id": 28,
+    "topic": 2,
+    "question": "What is a type of security which prevents access to a computer even if the user has physical access?",
+    "answers": [
+      "Authentication",
+      "Proxy",
+      "Virtual",
+      "Physical lock"
+    ]
+  },
+  {
+    "id": 29,
+    "topic": 4,
+    "question": "What is a method of protecting the rights of an originator of a creative work, such as text, piece of music, painting, or computer program, through law?",
+    "answers": [
+      "Copyright",
+      "Trademark",
+      "force majeure",
+      "Liscensing"
+    ]
+  },
+  {
+    "id": 30,
+    "topic": 4,
+    "question": "Any information available on the Internet is a(n) _________ __________, which is legally owned by the person who created it",
+    "answers": [
+      "Intellectual property",
+      "Creative commons",
+      "Liscensed product",
+      "protected product"
+    ]
+  },
+  {
+    "id": 31,
+    "topic": 4,
+    "question": "What is the formal term for verbal defamation?",
+    "answers": [
+      "Slander",
+      "Libel",
+      "Lies",
+      "Disclosure"
+    ]
+  },
+  {
+    "id": 32,
+    "topic": 4,
+    "question": "What is a sudden increase in line voltage, which may lead to the damage of electronic devices, such as computers?",
+    "answers": [
+      "Power surge",
+      "Lightning",
+      "Fourier transform",
+      "Fire"
+    ]
+  },
+  {
+    "id": 33,
+    "topic": 4,
+    "question": "What is an individual who develops contact with Internet users, through chat rooms, online forums, or e-mail, to exploit them financially or involve them in dangerous relationships?",
+    "answers": [
+      "Online predator",
+      "FBI",
+      "CIA",
+      "Phisher"
+    ]
+  },
+  {
+    "id": 34,
+    "topic": 4,
+    "question": "What is the unauthorized copying of copyrighted software without obtaining the license or permission of its copyright owner?",
+    "answers": [
+      "Copyright Infringement",
+      "Stealing",
+      "Hacking",
+      "Slander"
+    ]
+  },
+  {
+    "id": 35,
+    "topic": 3,
+    "question": "What is an irrelevant and unsolicited e-mail message sent by an unknown sender?",
+    "answers": [
+      "Spam",
+      "Phishing",
+      "Social engineering",
+      "Targeted"
+    ]
+  },
+  {
+    "id": 36,
+    "topic": 0,
+    "question": "What is the use of physical characteristics such as fingerprints, voice patterns, and face shapes as means of identification?",
+    "answers": [
+      "Biometrics",
+      "Physical security",
+      "Deterents",
+      "SciFi"
+    ]
+  },
+  {
+    "id": 37,
+    "topic": 0,
+    "question": "What is a program which finds and removes viruses from a computer by scanning it",
+    "answers": [
+      "Antivirus",
+      "Biometrics",
+      "Firewall",
+      "Dehacker"
+    ]
+  },
+  {
+    "id": 38,
+    "topic": 2,
+    "question": "What is a type of Input validation that might help to prevent buffer overflows?",
+    "answers": [
+      "length limit",
+      "length minimum",
+      "character restrictions",
+      "password complexity"
+    ]
+  },
+  {
+    "id": 39,
+    "topic": 2,
+    "question": "What is a type of Input validation that might help to prevent an SQL injection?",
+    "answers": [
+      "length limit",
+      "length minimum",
+      "character restrictions",
+      "password complexity"
+    ]
+  },
+  {
+    "id": 40,
+    "topic": 0,
+    "question": "What is the term for preserving authorized restrictions on information access and disclosure?",
+    "answers": [
+      "Confidentiality",
+      "Integrity",
+      "Availability",
+      "Vulnerability"
+    ]
+  },
+  {
+    "id": 41,
+    "topic": 0,
+    "question": "What is the term for guarding against improper information modification or destruction, and includes ensuring information non-repudiation and authenticity",
+    "answers": [
+      "Integrity",
+      "Confidentiality",
+      "Availability",
+      "Vulnerability"
+    ]
+  },
+  {
+    "id": 42,
+    "topic": 0,
+    "question": "What is the term for ensuring timely and reliable access to and use of information",
+    "answers": [
+      "Availability",
+      "Confidentiality",
+      "Integrity",
+      "Vulnerability"
+    ]
+  },
+  {
+    "id": 43,
+    "topic": 0,
+    "question": "What is the term for a weakness in an information system, system security procedures, internal controls, or implementation that could be exploited or triggered by a threat source",
+    "answers": [
+      "Vulnerability",
+      "Risk",
+      "Integrity",
+      "Threat"
+    ]
+  },
+  {
+    "id": 44,
+    "topic": 0,
+    "question": "What is the term for any circumstance or event with the potential to adversely impact operations, assets, or individuals through an information system?",
+    "answers": [
+      "Threat",
+      "Risk",
+      "Integrity",
+      "Vulnerability"
+    ]
+  },
+  {
+    "id": 45,
+    "topic": 1,
+    "question": "What is Open Design?",
+    "answers": [
+      "System Security should not have to rely on secrecy to be effective.",
+      "System Security should be open to extension, closed to modification.",
+      "System Security should be closed to extension, open to modification.",
+      "System Security should be seen by everyone in an organization to understnad."
+    ]
+  },
+  {
+    "id": 46,
+    "topic": 1,
+    "question": "What is the practice of writing software that continues operation after an unforseen circumstance?",
+    "answers": [
+      "Defensive Programming",
+      "Backup",
+      "Layered Defense",
+      "Open Design"
+    ]
+  },
+  {
+    "id": 47,
+    "topic": 1,
+    "question": "What is the use of mutliple security controls to protect against vulnerable part of your program?",
+    "answers": [
+      "Layered Defens",
+      "Backup",
+      "Defensive Programming",
+      "Open Design"
+    ]
+  },
+  {
+    "id": 48,
+    "topic": 1,
+    "question": "What is the concept that unless a subject is given explicit access to an object, it should be denied access to that object.",
+    "answers": [
+      "Fail-Safe Default",
+      "Safe-Fail Default",
+      "Defensive Programming",
+      "Open Design"
+    ]
+  },
+  {
+    "id": 49,
+    "topic": 2,
+    "question": "What is this check an example of? A program checks that the user has entered a date in the manner DDMMYYYY.",
+    "answers": [
+      "Format Check",
+      "Complexity Check",
+      "Range Check",
+      "Presence Check"
+    ]
+  },
+  {
+    "id": 50,
+    "topic": 2,
+    "question": "What is this check an example of? A program checks that the user has not left an entry blank.",
+    "answers": [
+      "Presence Check",
+      "Complexity Check",
+      "Range Check",
+      "Format Check"
+    ]
+  },
+  {
+    "id": 51,
+    "topic": 2,
+    "question": "What is this check an example of? A program checks that a specific entry falls between the integer 3 and 8.",
+    "answers": [
+      "Range Check",
+      "Complexity Check",
+      "Presence Check",
+      "Format Check"
+    ]
+  },
+  {
+    "id": 52,
+    "topic": 2,
+    "question": "What is this check an example of? A program checks that a password has more than 15 characters and has an Uppercase character.",
+    "answers": [
+      "Complexity Check",
+      "History Check",
+      "Presence Check",
+      "Format Check"
+    ]
+  },
+  {
+    "id": 53,
+    "topic": 2,
+    "question": "What is this check an example of? A program checks that a password is not the same as a previous password.",
+    "answers": [
+      "History Check",
+      "Complexity Check",
+      "Presence Check",
+      "Format Check"
+    ]
+  }
+]

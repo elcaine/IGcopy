@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  margin: auto;
+}
+
+html,
+body,
+.container,
+#__next {
+  height: 100%;
+}
+
+.container {
+  overflow: hidden;
+}
+
+body > * {
+  height: 100%;
+}
+
+.content-wrapper {
+  display: flex;
+  height: calc(100% - 78px);
+  position: relative;
+  top: 78px;
+  overflow: auto;
+}
+
+.resource-drawer {
+  background-color: #fafafa;
+  padding-right: 10px;
+}
+
+.resource-drawer-header {
+  display: flex;
+}
+
+.resource-drawer-content {
+  width: 400px;
+}
+
+.resource-drawer-element > * {
+  top: 78px;
+}
+
+.resource-menu-icon {
+  position: fixed;
+    right: 30px;
+}

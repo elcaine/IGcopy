@@ -1,0 +1,88 @@
+import { getSession, getHeaderProps } from "../lib/get-session.js";
+import Header from "./components/Header.js";
+import Footer from "./components/Footer.js";
+import Button from "@mui/material/Button";
+import Link from "next/link";
+import Box from "@mui/material/Box";
+import {Snackbar, Alert} from "@mui/material";
+import ResourceDrawer from "./components/ResourceDrawer.js";
+import Dashboard from "./components/Dashboard.js";
+import { getAllResources, getAllResourcesFromDirectory } from "./api/resources";
+import { getProgress } from "./api/user/progress.js";
+import React, {useState} from 'react';
+
+function decideContent(userInfo, holes, gameInProgress) {
+  return userInfo ? (
+    Dashboard({holes, userInfo, gameInProgress})
+  ) : (
+    <div style={{ margin: "auto", padding: "30px" }}>
+      <Button variant="contained" href="/api/login">
+        Login
+      </Button>
+    </div>
+  );
+}
+
+export default function page({ headerProps, resources, holes, gameInProgress }) {
+  const [open, setOpen] = useState(!!headerProps.message);
+  function handleClose()
+  {
+    setOpen(false)
+  }
+  return (
+    <Box sx={{ bgcolor: "#fafafa", height: "100%" }}>
+      <div className="container">
+        <Header userInfo={headerProps.userInfo} message={headerProps.message} />
+        <div className="content-wrapper">
+          <Box
+            sx={{
+              bgcolor: "#fafafa",
+              padding: "10px",
+              width: "100%",
+            }}
+          >
+            {decideContent(headerProps.userInfo, holes, gameInProgress)}
+          </Box>
+          {headerProps.userInfo && (
+            <ResourceDrawer resources={resources}></ResourceDrawer>
+          )}
+        </div>
+        <Snackbar open={open} onClose={handleClose} autoHideDuration={3000}><Alert severity="info" onClose={handleClose}>{headerProps.message}</Alert></Snackbar>
+        <Footer />
+      </div>
+    </Box>
+  );
+}
+
+export async function getServerSideProps({ req, res }) {
+  var session = await getSession(req, res);
+  var headerProps = await getHeaderProps(session);
+  const resources = await getAllResources();
+  await session.commit();
+  var progress = await getProgress(req, res);
+  const resourceNames = await getAllResourcesFromDirectory();
+  function getHoles()
+  {
+    var holes = [];
+    for (var i = 0; i < resourceNames.length; i++)
+    {
+      // get the hole id from the beginning of md file name
+      var id = resourceNames[i].split("_")[0];
+      var hole = {};
+      hole['id'] = id;
+      // get the par from the 2nd part of the md file name
+      var par = resourceNames[i].split("_")[1];
+      hole['par'] = par
+      // get the rest and use it for a name, remove .md at the end
+      hole['name'] = resourceNames[i].substring((id + "_" + par + "_").length, resourceNames[i].length-3).replaceAll("_", " ");
+      hole['score'] = (progress.hasOwnProperty('records') && progress.records[id] !== 1337) ? progress.records[id] : "N/A";
+      holes.push(hole);
+    }
+    holes.sort((a,b) => (a.id > b.id) ? 1 : ((b.id > a.id) ? -1 : 0))
+    return holes;
+  }
+
+  return {
+    props: { headerProps: headerProps, resources: resources, holes: getHoles(), gameInProgress: (progress.gameInProgress!=null) ? progress.gameInProgress : "" },
+  };
+}
